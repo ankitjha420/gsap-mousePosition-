@@ -1,0 +1,22 @@
+/* IMPORT STATEMENTS */
+
+@import "./_box.scss";
+
+
+
+
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

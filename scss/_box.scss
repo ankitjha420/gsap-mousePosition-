@@ -1,0 +1,25 @@
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(82, 0, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    .small{
+        height: 160px;
+        width: 110px;
+        background-color: rgb(168, 168, 168);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 1000px;
+
+
+        .text{
+            color: yellow;
+            font-size: 44px;
+        }
+    }
+}
